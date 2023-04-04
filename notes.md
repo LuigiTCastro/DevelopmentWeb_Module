@@ -55,9 +55,14 @@ As good practice, do not uses the login page as an index.
     <nav> -marcação de navegação (menu, botões...)
         <ul> -marcação de lista em formato de tópicos. 'ul' indica que vai iniciar uma lista. todo tópico de 
                                                                                     dentro utiliza a tag 'li'.
-            <li>Home</li>
+            <li>Home</li> -tópicos da lista
             <li>Professores</li>
-            <li>Fale conosco</li>
+            <li><a href="Conosco.html"> Fale conosco</a></li>
         </ul>
     </nav>
 </header>
+
+
+
+-<a></a> marcação para direcionar para outra página (link)
+-href = para onde se quer ser direcionado. href fica dentro de <a> -> <a herf="...">
