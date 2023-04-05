@@ -38,7 +38,7 @@ A estrutura possui: ``abertura html, cabeca e corpo.``
 <!DOCTYPE html> -indicates that the document is of html type
     <html lang="pt-br"> -indicates the language of the document
     <head>
-        <meta charset="utf-8"/> -indicates the document characters codification
+        <meta charset="utf-8"/> -communicate to browsers the characters codification used in a document (independent of user region)
         <title>...</title>
     </head>
     </html>
@@ -96,6 +96,7 @@ __alt = texto alternativo da imagem__
 
 
 
-
-> HEAD [configurations]
-> BODY [Header-Main-Footer]
+__Warning!__
+> HTML [Head-Body]
+    > HEAD [Configurations]
+    > BODY [Header-Main-Footer]
