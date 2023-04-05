@@ -62,7 +62,16 @@ As good practice, do not uses the login page as an index.
     </nav>
 </header>
 
+__<a></a> marcação para direcionar para outra página (link)__
+__href = para onde se quer ser direcionado. href fica dentro de <a> -> <a herf="...">__
 
 
--<a></a> marcação para direcionar para outra página (link)
--href = para onde se quer ser direcionado. href fica dentro de <a> -> <a herf="...">
+# MAIN SYNTAX
+<main> -> conteúdo principal!! tudo que está depois do header a antes do footer`
+<section> -marcação de uma sessão
+<img src="" width="" height="" alt=""/> -marcação de uma imagem
+
+__src = source = fonte da imagem__
+__width = largura__
+__height = altura__
+__alt = texto alternativo da imagem__
