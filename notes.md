@@ -100,3 +100,33 @@ __Warning!__
 > HTML [Head-Body]
     > HEAD [Configurations]
     > BODY [Header-Main-Footer]
+
+
+
+# FORM
+desenvolvido dentro da main.
+
+<form> marcacaçao de formulario HTML. permite inserir dados em uma pagina da web. dentro das tags form, adiciona-se os tipos de campos de entrada.
+
+Syntax ex.: 
+<form action="index.html"> action: indica o destino da açao apos finalizar o formulario.
+    <p>
+        <label>Nome: </label> marcacao de legenda para um campo do form.
+        <input type="text" name="nome" placeholder="Digite seu nome" required/> marcacao do campo do form. type=text: entrada de texto simples.
+    </p>
+    <p>
+        <label>Email: </label><input type="text" name="Email"/>
+    </p>
+    <p>
+        <label>Comentarios: </label>
+        <textarea name="Comentarios" rows="4" cols="50"></textarea> marcacao de entrada de texto multi-linhas.
+    </p>
+
+> tags dos campos de entrada: <INPUT>, <SELECT>, <TEXTAREA> etc.
+
+<INPUT type> diferentes valores do atibruto type. <type= text,email,password,checkbox,radio,submit...>
+<INPUT name> nome do campo para identificar o valor do campo.
+<INPUT placeholder> espaço reservado. texto de dica para o que inserir.
+<INPUT required> torna o campo obrigatório.
+
+
