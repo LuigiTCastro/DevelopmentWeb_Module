@@ -121,6 +121,30 @@ Syntax ex.:
         <label>Comentarios: </label>
         <textarea name="Comentarios" rows="4" cols="50"></textarea> marcacao de entrada de texto multi-linhas.
     </p>
+    <p>
+        <label>Sexo: </label>
+        <input type="radio" nome="sexo"> type=radio: botao de opcao.
+    </p>
+    <p>
+        <label>Aonde nos conheceu?: </label>
+        <select name="conheceu"> select: lista de opçoes.
+            <option selected>...</option>
+            <option>...</option>
+            <option>...</option>
+        </select>
+    </p>
+    <p>
+        <input type="checkbox" name="aceito"> marcacao de um elemento botao de opcao.
+        <label>...</label>
+    </p>
+    <p>
+        <input type="submit" .../> marcacao de botao de açao do formulario. (nao é necessario criar label)
+        <input type="reset" .../> marcacao de botao de limpeza do formulario. (nao é necessario criar label)
+    </p>
+
+    **Radio: quando marca um, desmarca o outro.
+    **Checkbox: pode haver varios, e todos serem marcados.
+
 
 > tags dos campos de entrada: <INPUT>, <SELECT>, <TEXTAREA> etc.
 
