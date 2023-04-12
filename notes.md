@@ -13,6 +13,7 @@ Toda marcação no HTML, utiliza abertura e fechamento de TAG.
 
 
 # HMTL BLOCK SYNTAX
+<!DOCTYPE html>
 <html> -inicio. todo conteudo dentro da tag html é na linguagem html.
     <head> -'cabeça'. possui configuracoes e parametros.
         <title></title> -titulo do documento.
@@ -56,9 +57,9 @@ As good practice, do not uses the login page as an index.
     <nav> -marcação de navegação (menu, botões...)
         <ul> -marcação de lista em formato de tópicos. 'ul' indica que vai iniciar uma lista. todo tópico de 
                                                                                     dentro utiliza a tag 'li'.
-            <li>Home</li> -tópicos da lista
-            <li>Professores</li>
-            <li><a href="Conosco.html"> Fale conosco</a></li>
+            <li>...</li> -tópicos da lista
+            <li>...</li>
+            <li><a href="xxx.html">...</a></li>
         </ul>
     </nav>
 </header>
@@ -154,3 +155,22 @@ Syntax ex.:
 <INPUT required> torna o campo obrigatório.
 
 
+# TABLE
+<section>
+    <h2></h2>
+    <table> marcacao do elemento tabela.
+        <thead> define grupo de linhas que representam os cabeçalhos de uma tabela.
+            <tr> marcacao das linhas. (table row)
+                <th></th> marcacao das colunas / celula de cabeçalho. (table header)
+                <th></th> 
+            </tr>
+        <tbody> define o conjunto de dados de uma tabela.
+            <tr>
+                <td></td> marcacao das celulas (dados/valores). (table data)
+                <td></td> 
+            </tr>
+
+**TR - Rows
+**TH - Columns
+**TD - Cells/Values
+**Put the same quantity of TH(columns) and TD(values)
