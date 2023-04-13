@@ -170,15 +170,22 @@ Syntax ex.:
                 <td></td> 
             </tr>
 
-
-# IFRAME
-<section>
-    <div>
-        <iframe src="..."></iframe> marcacao de uma pagina dentro de outra
-    </div>
-</section>
-
 **TR - Rows
 **TH - Columns
 **TD - Cells/Values
 **Put the same quantity of TH(columns) and TD(values)
+
+
+# IFRAME
+<section>
+    <div>
+        <iframe src="..."></iframe> marcacao de uma pagina dentro de outra.
+    </div>
+</section>
+
+
+# ABBR & BLOCKQUOTE
+<section>
+    <abbr title="Word to be abbreviated">WordAbbreviated</abbr> marcaçao da explicaçao de uma abreviaçao.
+    <blockquote cite="...">...</blockquote> marcaçao de uma citaçao.
+</section>
