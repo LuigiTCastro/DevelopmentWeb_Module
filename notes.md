@@ -145,6 +145,7 @@ Syntax ex.:
 
     **Radio: quando marca um, desmarca o outro.
     **Checkbox: pode haver varios, e todos serem marcados.
+    **Select: lista de opçoes, com apenas uma escolha? (tag propria e nao input)
 
 
 > tags dos campos de entrada: <INPUT>, <SELECT>, <TEXTAREA> etc.
@@ -159,9 +160,9 @@ Syntax ex.:
 <section>
     <h2></h2>
     <table> marcacao do elemento tabela.
-        <thead> define grupo de linhas que representam os cabeçalhos de uma tabela.
+        <thead> define linha/grupo de linhas que representam os cabeçalhos de uma tabela.
             <tr> marcacao das linhas. (table row)
-                <th></th> marcacao das colunas / celula de cabeçalho. (table header)
+                <th></th> marcacao das colunas / celula de cabeçalho / define o nome de uma coluna.
                 <th></th> 
             </tr>
         <tbody> define o conjunto de dados de uma tabela.
@@ -170,36 +171,51 @@ Syntax ex.:
                 <td></td> 
             </tr>
 
-**TR - Rows
-**TH - Columns
-**TD - Cells/Values
+**TR - Rows [TableRows]
+**TH - Columns [TableHeader]
+**TD - Cells/Values [TableData]
 **Put the same quantity of TH(columns) and TD(values)
 
 
-# IFRAME
+# IFRAME x VIDEO
 <section>
     <div>
         <iframe src="..."></iframe> marcacao de uma pagina dentro de outra.
     </div>
 </section>
 
+<section>
+    <video width="" controls="controls"> marcacao de um video em pasta local.
+        <source src="path/file.extension" type="video/extension">
+    </video>
 
-# ABBR, BLOCKQUOTE
+**Se quiser pegar um video de uma pagina -> IFRAME.
+**Se quiser pegar um video uma pasta local -> VIDEO.
+
+
+# ABBR, BLOCKQUOTE [goodpractices]
 <section>
     <abbr title="Word to be abbreviated">WordAbbreviated</abbr> marcaçao da explicaçao de uma abreviaçao.
-    <blockquote cite="...">...</blockquote> marcaçao de uma citaçao.
+    <blockquote cite="...">...</blockquote> marcaçao de uma citaçao. [Bloco de Citaçao]
 </section>
 
 
-# FIGURE, FIGCAPTION
+# FIGURE, FIGCAPTION [goodpractices]
 <section>
     <figure> marcaçao de uma imagem.
         <img src="path/file.extension" width="" alt="">
         <figcpation>...</figcaption> marcaçao da legenda de uma imagem.
 
 
-# METATAGS (HEAD)
-<meta name="description" content="..."> marcaçao da descriçao do documento.
+# METATAGS (HEAD) [goodpractices]
+<meta name="description" content="..."> marcaçao da descriçao do documento. da acesso a descriçao da pagina para os browsers e sites de busca.
 <meta name="keywords" content=""> marcaçao das palavras chaves.
 <meta name="author" content=""> marcaçao do autor do documento.
 <meta http-equiv="refresh" content="50"> marcaçao do tempo de refresh.
+
+
+
+__ToolsTips__
+W3Schools.com
+DeveloperMozilla.com
+(inspecionar sites para ver os códigos; f12)
