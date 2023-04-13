@@ -170,6 +170,14 @@ Syntax ex.:
                 <td></td> 
             </tr>
 
+
+# IFRAME
+<section>
+    <div>
+        <iframe src="..."></iframe> marcacao de uma pagina dentro de outra
+    </div>
+</section>
+
 **TR - Rows
 **TH - Columns
 **TD - Cells/Values
