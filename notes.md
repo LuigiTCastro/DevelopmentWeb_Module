@@ -199,4 +199,7 @@ Syntax ex.:
 
 
 # METATAGS (HEAD)
-<meta name="description" content="Devaria is a training for peoples who have no programming knowledge and want to be a good programmer">
+<meta name="description" content="..."> marcaçao da descriçao do documento.
+<meta name="keywords" content=""> marcaçao das palavras chaves.
+<meta name="author" content=""> marcaçao do autor do documento.
+<meta http-equiv="refresh" content="50"> marcaçao do tempo de refresh.
