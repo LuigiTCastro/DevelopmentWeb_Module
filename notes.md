@@ -184,8 +184,19 @@ Syntax ex.:
 </section>
 
 
-# ABBR & BLOCKQUOTE
+# ABBR, BLOCKQUOTE
 <section>
     <abbr title="Word to be abbreviated">WordAbbreviated</abbr> marcaçao da explicaçao de uma abreviaçao.
     <blockquote cite="...">...</blockquote> marcaçao de uma citaçao.
 </section>
+
+
+# FIGURE, FIGCAPTION
+<section>
+    <figure> marcaçao de uma imagem.
+        <img src="path/file.extension" width="" alt="">
+        <figcpation>...</figcaption> marcaçao da legenda de uma imagem.
+
+
+# METATAGS (HEAD)
+<meta name="description" content="Devaria is a training for peoples who have no programming knowledge and want to be a good programmer">
