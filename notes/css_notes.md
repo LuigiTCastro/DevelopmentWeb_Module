@@ -32,3 +32,15 @@ b - Value
 </button>
 
 3) In Link
+...
+
+
+
+**Responsividade
+**Mobile First - desenvolver primeiro para os dispositivos móveis depois para as telas maiores.
+**DevTools - ferramentas de desenvolvimento (f12) ou botao direito > inspecionar ou ...
+
+# VIEWPORT
+MetaTag
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
