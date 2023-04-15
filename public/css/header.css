@@ -34,15 +34,26 @@ header nav ul li a{
 1) PQ O HEADER NO COMEÇO?
 2) PQ 'HEADER NAV UL' E DPS 'HEADER NAV UL LI', E NÃO JUNTOS?*/
 
+header nav ul li a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
 
 @media screen and (min-width: 992px){
     header{
         position: relative;
     }
 
-    header .menu-position{
+    header nav ul {
         position: absolute;
         right: 2%;
         top: 18%;
     }
+
+    /* .menu-position{
+        position: absolute;
+        right: 2%;
+        top: 18%;
+    } */
 }

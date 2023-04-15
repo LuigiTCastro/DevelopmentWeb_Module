@@ -59,7 +59,7 @@ As good practice, do not uses the login page as an index.
                                                                                     dentro utiliza a tag 'li'.
             <li>...</li> -tópicos da lista
             <li>...</li>
-            <li><a href="xxx.html">...</a></li>
+            <li><a href="xxx.html">...</a></li> -anchor(a): ancora.
         </ul>
     </nav>
 </header>
@@ -212,6 +212,8 @@ Syntax ex.:
 <meta name="keywords" content=""> marcaçao das palavras chaves.
 <meta name="author" content=""> marcaçao do autor do documento.
 <meta http-equiv="refresh" content="50"> marcaçao do tempo de refresh.
+
+__[MetaTags]__ <!--  Usada para fornecer informações adicionais sobre um documento HTML, que não são exibidas diretamente na página da web. Essas informações são usadas pelos navegadores da web, mecanismos de pesquisa e outros serviços da web para entender melhor o conteúdo da página, ajudando a otimizar a experiência do usuário. -->
 
 
 
