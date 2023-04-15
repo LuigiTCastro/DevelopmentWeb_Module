@@ -58,5 +58,30 @@ h1{
 
 # VIEWPORT
 MetaTag
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+# SPECIFICS STYLES...
+global.css [html,body]
+header.css
+index.css [main?]
+footer.css
+
+# MEDIA QUERY
+Define custom styles for differents types of devices and medias.
+**Tamanhos de tela específicos.
+**Tipos de dispositivos específicos.
+
+ex.: 
+@media screen and (min-width: 992px){
+    body{
+        color: ...;
+    }
+}
+
+
+__Take note!__
+[BreakpointsCss]: screen limits.
+Default: 992px is even the limit of a TABLET. (more than this is a DESKTOP).
+
+``Relative position: follows the default flow of screen design.``
+``Absolute position: has a fixed position.``
