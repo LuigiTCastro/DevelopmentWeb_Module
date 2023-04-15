@@ -1,1 +1,29 @@
 /* header styles */
+
+header .link-logo{
+    display: block;             /*display: mostrar*/
+    padding: 20px 25px;         /*INNER MARGIN - padding: preenchimento*/
+}
+
+header nav ul{
+    text-align: center;
+    padding: 0;    
+    /* display: inline-block; */
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* .menu-color li a{
+    color: white;
+} */
+
+/*DÚVIDA:
+1) PQ O HEADER NO COMEÇO?
+2) PQ 'HEADER NAV UL' E DPS 'HEADER NAV UL LI', E NÃO JUNTOS?*/

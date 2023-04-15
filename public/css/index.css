@@ -1,17 +1,21 @@
 /* Its not necessary to apply the style tag <style> in the css file. */
 
-h1{
+/*h1{
     color:red
-} /*selector*/
+} /*selector
 
 .color-green ul li a{
     color:green
-} /*class*/
+} /*class
 
 #color-black{
     color: black;
-} /*id*/
+} /*id
 
 #link-home{
     color: black;
-} /*id*/
+} id*/
+
+.cover-container figure img {
+    width: 100%;
+}

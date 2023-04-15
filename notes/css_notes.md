@@ -32,7 +32,23 @@ b - Value
 </button>
 
 3) In Link
-...
+<!-- Its not necessary to apply the style tag <style> in the css file. -->
+
+h1{
+    color:red
+} /*selector*/
+
+.color-green ul li a{
+    color:green
+} /*class*/
+
+#color-black{
+    color: black;
+} /*id*/
+
+#link-home{
+    color: black;
+} /*id*/
 
 
 
