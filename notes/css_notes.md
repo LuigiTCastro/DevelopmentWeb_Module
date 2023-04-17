@@ -24,9 +24,9 @@ b - Value
     <style>
         p{color: blue;}
         .btn-green{background-color: green} 
-<!-- to declare as a class, its necessary to put the point at the beginning -->
+<!-- to declare as a CLASS, its necessary to put the point at the beginning -->
        #btn-red{background-color: red}
-<!-- to declare as a id, its necessary to put the hash at the beginning -->
+<!-- to declare as a ID, its necessary to put the hash at the beginning -->
     </style>
 
 <p>
@@ -82,6 +82,7 @@ header.css
 index.css [main?]
 footer.css
 
+
 # MEDIA QUERY
 Define custom styles for differents types of devices and medias.
 **Tamanhos de tela específicos.
@@ -109,3 +110,22 @@ __ToolsTips__
 W3Schools.com
 DeveloperMozilla.com
 (inspecionar sites para ver os códigos; f12)
+
+
+# PSEUDO-ELEMENTS
+Selectors that allow selecting multiple elements for to apply styles on a specific element according with
+his state or position inside father element.
+
+<Syntax ex.:>
+<footer section span:first-child{...}>    <first-child>
+<header nav ul li a:hover{...}>          <hover>
+
+<!-- its not necessary to use the tags -->
+
+
+__TakeNote!__
+<fatherElement child1 child2 child3..>
+
+<Syntax ex.:>
+header a img{}
+header nav ul li a{}

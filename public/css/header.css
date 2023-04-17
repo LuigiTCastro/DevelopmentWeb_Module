@@ -34,7 +34,7 @@ header nav ul li a{
 1) PQ O HEADER NO COMEÇO?
 2) PQ 'HEADER NAV UL' E DPS 'HEADER NAV UL LI', E NÃO JUNTOS?*/
 
-header nav ul li a:hover{
+header nav ul li a:hover{           /*hover: pairar, flutuar (quando o mouse passa por cima)*/
     color: green;
     text-decoration: underline;
 }

@@ -19,3 +19,11 @@
 .cover-container figure img {
     width: 100%;
 }
+
+main section blockquote{
+    margin-bottom: 20px;
+}
+
+main section div iframe{
+    margin-bottom: 20px;
+}
