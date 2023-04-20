@@ -1,7 +1,29 @@
-main section div img {
-    width: 87%;
+/* main section div img {
+    width: 55%;
     margin: 20px 0;
     padding: 0px;
     border-radius: 20px;
     border: 5px double;
+} */
+
+.content-container { /*Aplicada em toda a section*/
+    padding: 20px;
 }
+
+.content-container > div img { /*Embora aplicado na section (elemento de nivel superior), o recursos '>' faz com que a delegação seja apenas para a hierarquia específica (div img)*/
+    width: 55%;
+    margin: 25px 0;
+    border-radius: 20px;
+    border: 5px double;
+}
+
+.content-container h2 {
+    font-size: 1.5em;
+    margin: 40px 0 15px;
+}
+
+main section article p {
+    text-align: justify;
+    /* text-align: center; */
+}
+
