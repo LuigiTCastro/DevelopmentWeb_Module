@@ -16,14 +16,54 @@
     color: black;
 } id*/
 
-.cover-container figure img {
+.cover-container {
     width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .iframe {
+    width: 100%;
+    height: 500px;
+} */
+
+main section iframe {
+    width: 80%;
+    height: 80%;
+    margin: 50px 0px 20px;
+}
+
+main section abbr {
+    color: #25cbd3;
 }
 
 main section blockquote{
     margin-bottom: 20px;
+    text-align: justify;
 }
 
-main section div iframe{
-    margin-bottom: 20px;
+main{
+    text-align: center;
+}
+
+main section h3{
+    font-size: 1.2em;
+    margin: 50px 0 15px;
+    padding: 0 25px;
+}
+
+@media screen and (min-width: 992px){
+    /* .cover-container, */
+    .section-video{
+        display: inline-block;
+        /* width: 100%;
+        height: 50%; */
+    }
+
+    main .section-azure blockquote{
+        text-align: center;
+        margin: 0;
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
 }

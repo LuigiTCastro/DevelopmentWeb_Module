@@ -35,7 +35,7 @@ header nav ul li a{
 2) PQ 'HEADER NAV UL' E DPS 'HEADER NAV UL LI', E NÃO JUNTOS?*/
 
 header nav ul li a:hover{           /*hover: pairar, flutuar (quando o mouse passa por cima)*/
-    color: green;
+    color: #9CF27F;
     text-decoration: underline;
 }
 
