@@ -1,0 +1,7 @@
+main section div img {
+    width: 87%;
+    margin: 20px 0;
+    padding: 0px;
+    border-radius: 20px;
+    border: 5px double;
+}
