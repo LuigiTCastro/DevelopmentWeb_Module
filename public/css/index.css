@@ -16,21 +16,17 @@
     color: black;
 } id*/
 
-.cover-container {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-}
-
 /* .iframe {
     width: 100%;
     height: 500px;
 } */
 
 main section iframe {
-    width: 80%;
-    height: 80%;
-    margin: 50px 0px 20px;
+    margin: 25px 0px;
+    width: 85%;
+    height: 300px;
+    border-radius: 5%;
+    border: 3px double;
 }
 
 main section abbr {
@@ -53,11 +49,35 @@ main section h3{
     padding: 0 25px;
 }
 
+.cover-container {
+    width: 100%;
+    margin: 0px;
+    padding: 20px 0;
+}
+
+main section figure {
+    margin: 20px 0;
+}
+
+main section img {
+    margin: 0;
+    width: 100%;
+}
+
 @media screen and (min-width: 992px){
-    /* .cover-container, */
+    .cover-container,
     .section-video{
         display: inline-block;
-        width: 80%;        
+        width: 45%;
+        margin: 0;
+        padding: 0;
+    }
+
+    main section iframe {
+        margin: 20px;
+        padding: 30px 0;
+        width: 85%;
+        height: 350px;
     }
 
     main .section-azure blockquote{
