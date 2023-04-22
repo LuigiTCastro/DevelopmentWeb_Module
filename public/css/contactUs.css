@@ -69,3 +69,39 @@ main .contact-form > p input[type="reset"] {
     background-color: #5e49ff;
 }
 
+@media screen and (min-width: 992px) {
+    main .contact-form {
+        width: 60%; 
+        border: 1px solid #25cbd3;
+        border-radius: 20px;
+        padding: 25px;
+        margin: 25px auto;
+        margin-bottom: 40px;
+    }
+
+    main .contact-form > p input,
+    main .contact-form > p textarea {
+        width: 95%;
+    }
+
+    main .contact-form > p select {
+        width: 25%;
+    }
+
+    main .contact-form > p input[type="submit"],
+    main .contact-form > p input[type="reset"] {
+        width: 20%;
+        margin-right: 10px;
+        outline: none;
+        /* color: white; */
+    }
+
+    main .contact-form > p input[type="submit"]:hover {
+        background-color: #2fa924;
+    }
+
+    main .contact-form > p input[type="reset"]:hover {
+        background-color: #4133b2;
+    }
+}
+
