@@ -1,0 +1,71 @@
+/* SITE CONTACTUS STYLES */
+
+main h2 {
+    font-size: 1.5em;
+    margin: 50px 0 25px;
+    padding: 0 20px;
+}
+
+.contact-form {
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+main .contact-form > p {
+    margin: 15px 0;
+}
+
+main .contact-form > p label {
+    display: block;
+    margin: 3px 0;
+}
+
+main .contact-form > p input,
+main .contact-form > p textarea,
+main .contact-form > p select {
+    width: 90.3%;
+    padding: 5px 15px;
+    outline-color: #3bd42d; /*Outline: linha de contorno*/
+}
+
+main .contact-form > p select {
+    width: 100%;
+}
+
+main .contact-form > p textarea {
+    width: 90.9%;
+    resize: none; /*Prevents changing the size of the comment box*/
+    padding-top: 7px;
+}
+ 
+main .contact-form > p input[type="radio"],
+main .contact-form > p input[type="checkbox"] {
+    width: 25px;
+}
+
+main .contact-form > p input[type="checkbox"] {
+    margin: 10px 3px;
+}
+
+main .contact-form > p:nth-child(4) span { /*nth-child: pseudo-class that selects a child element based in his position in a sibling elements group*/ /*sibling: irmãos*/
+    color: #25cbd3;
+}
+
+main .contact-form > p input[type="submit"],
+main .contact-form > p input[type="reset"] {
+    width: 100%;
+    margin: 5px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+main .contact-form > p input[type="submit"] {
+    font-weight: bold; /*Negrito*/
+    background-color: #3bd42d;
+}
+
+main .contact-form > p input[type="reset"] {
+    background-color: #5e49ff;
+}
+
