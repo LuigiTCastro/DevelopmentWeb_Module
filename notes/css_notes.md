@@ -129,3 +129,36 @@ __TakeNote!__
 <Syntax ex.:>
 header a img{}
 header nav ul li a{}
+
+
+# EM x REM
+A unidade em (em) define um valor em relação à fonte do elemento pai. Por exemplo, se um elemento tem um tamanho de fonte definido como 1.5em, isso significa que sua fonte será 1,5 vezes maior do que a fonte do elemento pai.
+
+Já a unidade rem (root em) define um valor em relação à fonte raiz do documento, que normalmente é definida no elemento html. Por exemplo, se a fonte raiz do documento tem um tamanho definido como 16px, um valor de 2rem seria equivalente a 32px, independentemente das dimensões da fonte do elemento pai.
+
+A principal diferença entre as unidades em e rem é que a unidade em é relativa ao tamanho da fonte do elemento pai, enquanto a unidade rem é relativa ao tamanho da fonte raiz do documento.
+
+
+# SELETOR DE ATRIBUTO
+<Syntax ex.:>
+input[type="checkbox"] {}
+
+
+# ...
+> O seletor <main .section-capa, .section-video> afeta dois tipos de elementos:
+Nesse caso, o seletor não é definido para a tag 'main, a main serve apenas como base da hierarquia.
+Todos os elementos que possuem a classe .section-capa dentro do elemento main.
+Todos os elementos que possuem a classe .section-video, independentemente de sua posição na árvore de elementos.
+
+> Quando a unidade é definida em pixels é verdade dizer que:
+Quando a unidade é definida em pixels, o tamanho do elemento será fixo e não irá se adaptar ao tamanho da tela ou do dispositivo utilizado para visualizar o site. Isso pode tornar o site menos responsivo e dificultar a visualização em dispositivos com telas menores ou maiores do que o tamanho definido em pixels. No entanto, a definição em pixels pode ser útil para elementos que precisam ter um tamanho fixo, como ícones ou elementos de interface gráfica.
+
+> Para que serve a propriedade 'important'? <h1 {color: red !important;}>
+É uma regra de estilo deve ter prioridade sobre as outras regras definidas para o mesmo elemento.
+Define a declaração com prioridade mais alta, independente da hierarquia.
+
+
+
+
+
+
